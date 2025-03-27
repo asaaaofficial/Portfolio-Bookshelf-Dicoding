@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://kit.fontawesome.com/d610a88bf2.js" crossorigin="anonymous-element"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="heya_heya">
+        <h1>My Library</h1>
+    </header>
+
+      <main>
+        <section class="main_input">
+          <div class="empat_kotak">
+            <h2>Add Book here!</h2>
+          </div>
+
+          <div class="dalam_kotak">
+            <form id="inputBook">
+              <div class="input">
+                <label for="inputBookTitle">Title</label>
+                <input id="inputBookTitle" type="text" placeholder="Title" required>
+              </div>
+
+              <div class="input">
+                <label for="inputBookAuthor">Author</label>
+                <input id="inputBookAuthor" type="text" placeholder="Author" required>
+              </div>
+
+              <div class="input">
+                <label for="inputBookYear">Year</label>
+                <input id="inputBookYear" type="number" placeholder="Year" required>
+              </div>
+
+              <div class="input_online">
+                <input id="inputBookIsComplete" type="checkbox">
+                <label for="inputBookIsComplete">Selesai dibaca</label>
+              </div>
+              <button id="submitData" type="submit">Enter</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="main_search">
+          <div class="empat_kotak">
+            <h2>Take a Book</h2>
+          </div>
+
+          <div class="dalam_kotak">
+            <p>Look for a Book</p>
+            <form id="searchBook">
+              <input id="searchBookTitle" type="text" placeholder="Look for books here!">
+              <button id="searchSubmit" type="submit">Enter</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="main_library">
+          <div class="empat_kotak">
+            <h2>Belum selesai dibaca</h2>
+          </div>
+
+          <div class="dalam_kotak">
+            <div id="incompleteLibraryList" class="list_books">
+            </div>
+          </div>
+        </section>
+
+        <section class="main_library">
+          <div class="empat_kotak">
+            <h2>Selesai dibaca</h2>
+          </div>
+
+          <div class="dalam_kotak">
+            <div id="completeLibraryList" class="list_books">
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="socials">
+        <a href="www.linkedin.com/in/aura-shauma-amatullah-16b49527b"><i class="fa-brands fa-linkedin" crossorigin="anonymous-element"></i></a>
+        <a href="https://www.instagram.com/invites/contact/?i=1s90gb3leyqj8&utm_content=sex66lz"><i class="fa-brands fa-instagram" crossorigin="anonymous-element"></i></a>
+    </div>
+
+    <div class="credit">
+        &copy; 2024 AURA SHAUMA AMATULLAH. ALL RIGHT RESERVED
+    </div>
+      </footer> 
+
+      <script src="main.js"></script>
+</body>
+</html>
