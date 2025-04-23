@@ -17,4 +17,4 @@ Bookshelf App adalah proyek submission untuk kelas Belajar Membuat Front-End Web
 
 ## 📩Kontak
 - E-mail: asaaaofficial@gmail.com
-- Linkedin:
+- Linkedin:  https://www.linkedin.com/in/aura-shauma-amatullah-16b49527b
